@@ -9,10 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class StudentRepository {
+public class StudentRepository implements IStudentRepository {
 
     Connection connection;
-
     @Autowired
     public StudentRepository(Connection connection) {
        this.connection=connection;
@@ -27,8 +26,9 @@ public class StudentRepository {
 //        }
         try {
             PreparedStatement preparedStatement=connection.prepareStatement("insert into studentdata values(?,?)");
-            preparedStatement.setString(2,student.getName());
             preparedStatement.setInt(1,student.getId());
+            preparedStatement.setString(2,student.getName());
+
             return preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -37,7 +37,6 @@ public class StudentRepository {
 
     public List<Student> getStudents() {
         List<Student> studentList = new ArrayList<>();
-
         try {
             ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM studentData");
             while (resultSet.next()) {
@@ -48,10 +47,7 @@ public class StudentRepository {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
             }
-
-
 
     private void createTable() {
         try {
@@ -66,7 +62,6 @@ public class StudentRepository {
         } catch (SQLException ex) {
             throw new RuntimeException(ex);
         }
-
             }
 
 
