@@ -34,3 +34,6 @@ public class StudentController {
         return studentService.createStudent(student);
     }
 }
+
+
+

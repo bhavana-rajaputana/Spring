@@ -20,12 +20,19 @@ public class StudentRepository {
     }
 
     public  Integer createStudent(Student student) {
+//        try {
+//            return connection.createStatement().executeUpdate("INSERT INTO studentData (name, id) VALUES ('" + student.getName() + "', " + student.getId() + ");");
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
         try {
-            return connection.createStatement().executeUpdate("INSERT INTO studentData (name, id) VALUES ('" + student.getName() + "', " + student.getId() + ");");
+            PreparedStatement preparedStatement=connection.prepareStatement("insert into studentdata values(?,?)");
+            preparedStatement.setString(2,student.getName());
+            preparedStatement.setInt(1,student.getId());
+            return preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     public List<Student> getStudents() {
