@@ -26,15 +26,15 @@ public class DBBean {
         }
 return connection;
     }
-    @Bean
-   public DataSource getDataSource() {
-        DriverManagerDataSource datasource =new DriverManagerDataSource();
-        //datasource.setDriverClassName("com.mysql.jdbc.Driver");
-        datasource.setUrl("jdbc:mysql://localhost:3306/studentDetails");
-        datasource.setUsername("root");
-        datasource.setPassword("root");
-        return datasource;
-    }
+//    @Bean
+//   public DataSource getDataSource() {
+//        DriverManagerDataSource datasource =new DriverManagerDataSource();
+//        //datasource.setDriverClassName("com.mysql.jdbc.Driver");
+//        datasource.setUrl("jdbc:mysql://localhost:3306/studentDetails");
+//        datasource.setUsername("root");
+//        datasource.setPassword("root");
+//        return datasource;
+//    }
 
 }
 
