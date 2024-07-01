@@ -5,6 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
@@ -16,10 +18,10 @@ import java.util.List;
 @Slf4j
 public class StudentRepositorySpringJDBC implements IStudentRepository {
 
-    JdbcTemplate jdbcTemplate;
+    NamedParameterJdbcTemplate jdbcTemplate;
 
     @Autowired
-    StudentRepositorySpringJDBC(JdbcTemplate jdbcTemplate) {
+    StudentRepositorySpringJDBC(NamedParameterJdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
@@ -39,6 +41,13 @@ public class StudentRepositorySpringJDBC implements IStudentRepository {
 
     @Override
     public Integer createStudent(Student student) {
-        return null;
+log.info("In create Student StudentRepositorySpringJDBC");
+       // return jdbcTemplate.update("INSERT INTO studentdata (name, id) VALUES (?, ?)", student.getName(), student.getId());
+       // return null;
+        MapSqlParameterSource parameterSource = new MapSqlParameterSource();
+        parameterSource.addValue("name" , student.getName());
+        parameterSource.addValue("id" , student.getId());
+        return jdbcTemplate.update("insert into studentdata (name, id) values (:name, :id)", parameterSource);
+
     }
 }

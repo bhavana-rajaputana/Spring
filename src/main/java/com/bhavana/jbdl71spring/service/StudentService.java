@@ -12,14 +12,18 @@ import java.util.List;
 @Service
 public class StudentService {
     IStudentRepository istudentRepository;
+
     @Autowired
-    StudentService(@Qualifier("studentRepository") IStudentRepository istudentRepository) {
+    StudentService(@Qualifier("studentRepositorySpringJDBC") IStudentRepository istudentRepository) {
         this.istudentRepository =  istudentRepository;
     }
 
-//    StudentService(@Qualifier("studentRepositorySpringJDBC") IStudentRepository istudentRepository) {
+
+//    StudentService(@Qualifier("studentRepository") IStudentRepository istudentRepository) {
 //        this.istudentRepository =  istudentRepository;
 //    }
+
+
 
     public  Integer createStudent(Student student) {
         return istudentRepository.createStudent(student);

@@ -1,0 +1,47 @@
+2024-07-01T22:43:33.284+05:30  INFO 16440 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : Starting Jbdl71SpringApplication using Java 21.0.2 with PID 16440 (C:\Users\Bhavana\IdeaProjects\JBDL71-Spring\target\classes started by Bhavana in C:\Users\Bhavana\IdeaProjects\JBDL71-Spring)
+2024-07-01T22:43:33.317+05:30  INFO 16440 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-01T22:43:39.053+05:30  INFO 16440 --- [JBDL71-Spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-01T22:43:39.100+05:30  INFO 16440 --- [JBDL71-Spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-01T22:43:39.102+05:30  INFO 16440 --- [JBDL71-Spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-01T22:43:39.262+05:30  INFO 16440 --- [JBDL71-Spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-01T22:43:39.263+05:30  INFO 16440 --- [JBDL71-Spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5657 ms
+2024-07-01T22:43:42.073+05:30  INFO 16440 --- [JBDL71-Spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-01T22:43:42.092+05:30  INFO 16440 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : Started Jbdl71SpringApplication in 11.555 seconds (process running for 15.002)
+2024-07-01T22:44:29.985+05:30  INFO 16440 --- [JBDL71-Spring] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01T22:44:29.989+05:30  INFO 16440 --- [JBDL71-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-01T22:44:29.996+05:30  INFO 16440 --- [JBDL71-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-07-01T22:44:30.610+05:30  INFO 16440 --- [JBDL71-Spring] [http-nio-8080-exec-1] c.b.j.r.StudentRepositorySpringJDBC      : In create Student StudentRepositorySpringJDBC
+2024-07-01T22:47:44.150+05:30  INFO 18944 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : Starting Jbdl71SpringApplication using Java 21.0.2 with PID 18944 (C:\Users\Bhavana\IdeaProjects\JBDL71-Spring\target\classes started by Bhavana in C:\Users\Bhavana\IdeaProjects\JBDL71-Spring)
+2024-07-01T22:47:44.157+05:30  INFO 18944 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-01T22:47:47.356+05:30  INFO 18944 --- [JBDL71-Spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-01T22:47:47.392+05:30  INFO 18944 --- [JBDL71-Spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-01T22:47:47.393+05:30  INFO 18944 --- [JBDL71-Spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-01T22:47:47.560+05:30  INFO 18944 --- [JBDL71-Spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-01T22:47:47.561+05:30  INFO 18944 --- [JBDL71-Spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3251 ms
+2024-07-01T22:47:49.274+05:30  INFO 18944 --- [JBDL71-Spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-01T22:47:49.287+05:30  INFO 18944 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : Started Jbdl71SpringApplication in 6.669 seconds (process running for 8.889)
+2024-07-01T22:47:52.317+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01T22:47:52.317+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-01T22:47:52.321+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-07-01T22:47:52.449+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] c.b.j.r.StudentRepositorySpringJDBC      : In create Student StudentRepositorySpringJDBC
+2024-07-01T22:47:52.458+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-01T22:47:52.515+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@134419e6
+2024-07-01T22:47:52.520+05:30  INFO 18944 --- [JBDL71-Spring] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-01T23:54:21.578+05:30  INFO 18944 --- [JBDL71-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-01T23:54:21.759+05:30  INFO 18944 --- [JBDL71-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-01T23:54:41.004+05:30  INFO 4416 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : Starting Jbdl71SpringApplication using Java 21.0.2 with PID 4416 (C:\Users\Bhavana\IdeaProjects\JBDL71-Spring\target\classes started by Bhavana in C:\Users\Bhavana\IdeaProjects\JBDL71-Spring)
+2024-07-01T23:54:41.013+05:30  INFO 4416 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-07-01T23:54:44.880+05:30  INFO 4416 --- [JBDL71-Spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-01T23:54:44.919+05:30  INFO 4416 --- [JBDL71-Spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-01T23:54:44.921+05:30  INFO 4416 --- [JBDL71-Spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-01T23:54:45.122+05:30  INFO 4416 --- [JBDL71-Spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-01T23:54:45.123+05:30  INFO 4416 --- [JBDL71-Spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3918 ms
+2024-07-01T23:54:51.938+05:30  INFO 4416 --- [JBDL71-Spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-01T23:54:51.973+05:30  INFO 4416 --- [JBDL71-Spring] [main] c.b.j.Jbdl71SpringApplication            : Started Jbdl71SpringApplication in 12.549 seconds (process running for 14.962)
+2024-07-01T23:55:00.287+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01T23:55:00.289+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-01T23:55:00.294+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-01T23:55:01.095+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] c.b.j.r.StudentRepositorySpringJDBC      : In create Student StudentRepositorySpringJDBC
+2024-07-01T23:55:01.145+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-01T23:55:01.727+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f34f96d
+2024-07-01T23:55:01.741+05:30  INFO 4416 --- [JBDL71-Spring] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
